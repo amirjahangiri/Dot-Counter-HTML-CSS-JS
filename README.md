@@ -1,4 +1,4 @@
-# Dot-Counter-HTML-CSS-JS-
+# Dot Counter HTML CSS JS
 Just type persian keyboard and count character dot
 
-<h1>شما کافیه در باکس مورد نظر کلمه خود را تایپ کنید تا نقطه حرف های شما شمرده شود</h1>
+<h2>شما کافیه در باکس مورد نظر کلمه خود را تایپ کنید تا نقطه حرف های شما شمرده شود</h2>
