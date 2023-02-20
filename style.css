@@ -1,0 +1,143 @@
+@font-face {
+    font-family: Estedad;
+    src: url(fonts/Estedad-FD-Thin.5efb4f18.woff2);
+    font-weight: 300
+}
+
+@font-face {
+    font-family: Estedad;
+    src: url(fonts/Estedad-FD-Regular.1b639b90.woff2);
+    font-weight: 400
+}
+
+@font-face {
+    font-family: Estedad;
+    src: url(fonts/Estedad-FD-Medium.d65e58fc.woff2);
+    font-weight: 500
+}
+
+@font-face {
+    font-family: Estedad;
+    src: url(fonts/Estedad-FD-SemiBold.2d199d27.woff2);
+    font-weight: 600
+}
+
+@font-face {
+    font-family: Estedad;
+    src: url(fonts/Estedad-FD-Bold.d3aed6ad.woff2);
+    font-weight: 700
+}
+
+@font-face {
+    font-family: Estedad;
+    src: url(fonts/Estedad-FD-ExtraBold.50daa4ed.woff2);
+    font-weight: 800
+}
+
+@font-face {
+    font-family: Estedad;
+    src: url(fonts/Estedad-FD-Black.c7a07256.woff2);
+    font-weight: 900
+}
+
+@font-face {
+    font-family: Estedad-EN;
+    src: url(fonts/Estedad.fc3d3cf5.woff2);
+    font-weight: 300
+}
+
+@font-face {
+    font-family: Estedad-EN;
+    src: url(fonts/Estedad.fc3d3cf5.woff2);
+    font-weight: 400
+}
+
+@font-face {
+    font-family: Estedad-EN;
+    src: url(fonts/Estedad.fc3d3cf5.woff2);
+    font-weight: 500
+}
+
+@font-face {
+    font-family: Estedad-EN;
+    src: url(fonts/Estedad.fc3d3cf5.woff2);
+    font-weight: 600
+}
+
+@font-face {
+    font-family: Estedad-EN;
+    src: url(fonts/Estedad.fc3d3cf5.woff2);
+    font-weight: 700
+}
+
+@font-face {
+    font-family: Estedad-EN;
+    src: url(fonts/Estedad.fc3d3cf5.woff2);
+    font-weight: 800
+}
+
+@font-face {
+    font-family: Estedad-EN;
+    src: url(fonts/Estedad.fc3d3cf5.woff2);
+    font-weight: 900
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Estedad;
+}
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(0deg, #3f51b5, #03a9f4);
+}
+
+.container {
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: #00000011 0px 0px 15px 5px;
+    width: 500px;
+    min-width: fit-content;
+    margin: 0px 10px;
+    background: #fff;
+}
+
+input {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: right;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: all .3s ease-in-out;
+}
+
+.res {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+input:focus {
+    border-color: #2196f3;
+}
+
+span#dots {
+    font-size: 35px;
+    font-weight: 700;
+    color: #2196f3;
+}
